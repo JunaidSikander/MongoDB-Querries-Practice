@@ -1,0 +1,22 @@
+{
+  "name": "mongodb_query_practice",
+  "version": "1.0.0",
+  "description": "MongoDB Query Practice",
+  "main": "server.js",
+  "type": "module",
+  "repository": "https://github.com/JunaidSikander/MongoDB-Querries-Practice.git",
+  "author": "Junaid Sikander",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "mongodb": "^4.9.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.23.0",
+    "nodemon": "^2.0.19"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  }
+}
